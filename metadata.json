@@ -1,0 +1,6 @@
+{
+  "name": "Fruit Orchard Words - English Vocab Tree Game",
+  "description": "An interactive children's English vocabulary game where kids catch falling apples, bananas, and kiwis from a fruit tree to hear authentic pronunciation and master phonics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
