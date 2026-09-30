@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ['main'] # 如果你的主分支叫 master，改为主分支名即可
+    branches: ['main']
 
 permissions:
   contents: read
@@ -28,8 +28,8 @@ jobs:
         with:
           node-version: 20
 
-- name: Install dependencies
-  run: npm install --legacy-peer-deps
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps
 
       - name: Build
         run: npm run build
